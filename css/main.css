@@ -11,6 +11,15 @@ h1{
     padding:.25em;
     margin:0;
     text-align: center;
+    transition-property:color,font-size,background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+h1:hover{
+    color: blue;
+    font-size:25px;
+    background-color: grey;
 }
 
 nav ul{
