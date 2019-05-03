@@ -38,3 +38,21 @@ nav a{
     text-decoration:none;
     color: yellow;
 }
+
+div .image {
+  height: 150px;
+  width: 150px;
+  animation-name: image-manip
+
+}
+
+@keyframes image-manip {
+  from{
+    height: 150px;
+    width: 150px;
+  }
+  to{
+    width: 300px;
+    height:300px;
+  }
+}
